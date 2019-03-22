@@ -18,6 +18,6 @@ var deleteFromObjectByKey = function(recipes, Pizza) {
 }
 
 var destructivelyDeleteFromObjectByKey = function(recipes, Taco) {
-  delete recipes.Taco
+  delete recipes[Taco]
   return recipes
 }
